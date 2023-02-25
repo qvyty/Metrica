@@ -1,0 +1,93 @@
+body {
+  font-family: 'Manrope', sans-serif;
+
+}
+
+.container {
+  width: 1400px;
+  height: 7211px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 125px;
+}
+
+.main__container {
+  width: 1150px;
+  height: 650px;
+  margin-bottom: 150px;
+}
+
+.main__container h1 {
+  margin-bottom: 30px;
+  width: 956px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+
+  color: #121212;
+}
+
+.main__image {
+  width: 1150px;
+  height: 500px;
+  background-image: url('../resources/main.png');
+}
+
+.main__discription {
+  position: absolute;
+  max-width: 430px;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  padding: 379px 40px;
+
+  color: #FFFFFF;
+}
+
+
+
+.about-us {
+
+  margin-bottom: 150px;
+}
+
+.about-us__container {
+  width: 1051px;
+  height: 518px;
+}
+
+.about-us__header {
+  margin-bottom: 30px;
+
+
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+
+}
+
+.about-us__text {
+
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 61px;
+  letter-spacing: -0.03em;
+
+}
+
+.about-us__link {
+  display: block;
+  width: 255px;
+  height: 67px;
+  text-align: center;
+  line-height: 67px;
+  text-decoration: none;
+  color: white;
+
+  margin-top: 30px;
+  background: #AD1818;
+  border-radius: 5px;
+
+}
