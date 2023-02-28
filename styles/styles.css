@@ -1,26 +1,30 @@
 body {
-  font-family: 'Manrope', sans-serif;
-
+  background: #f5f5f5;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
 }
 
 .container {
-  width: 1400px;
-  height: 7211px;
   margin: 0 auto;
-  box-sizing: border-box;
-  padding-left: 125px;
+  width: 1400px;
+
+  background: #ffffff;
+}
+.container__wrapper {
+  padding: 0 125px;
 }
 
-.main__container {
-  width: 1150px;
+/* Блок Метрика */
+
+.interior__container {
+  margin-bottom: 150px;
   height: 650px;
   margin-bottom: 150px;
 }
 
-.main__container h1 {
+.interior__container h1 {
   margin-bottom: 30px;
   width: 956px;
-  font-weight: 400;
   font-size: 60px;
   line-height: 60px;
   letter-spacing: -0.03em;
@@ -28,66 +32,162 @@ body {
   color: #121212;
 }
 
-.main__image {
+.interior__image {
+  position: relative;
   width: 1150px;
   height: 500px;
-  background-image: url('../resources/main.png');
+  background-image: url("../resources/main.png");
 }
 
-.main__discription {
+.interior__text {
   position: absolute;
-  max-width: 430px;
+  left: 40px;
+  bottom: 40px;
+  width: 430px;
   font-size: 20px;
   line-height: 27px;
   letter-spacing: -0.03em;
-  padding: 379px 40px;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-
-
-.about-us {
-
-  margin-bottom: 150px;
-}
+/* Блок О НАС */
 
 .about-us__container {
+  margin-bottom: 150px;
   width: 1051px;
   height: 518px;
 }
 
-.about-us__header {
+.about-us__title {
   margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
 
+.about-us__discription {
+  margin-bottom: 30px;
+  font-size: 45px;
+  line-height: 61px;
+  letter-spacing: -0.03em;
+}
 
+.about-us__link {
+  display: block;
+
+  width: 255px;
+  height: 67px;
+  line-height: 67px;
+  text-align: center;
+  text-decoration: none;
+
+  color: #ffffff;
+
+  background: #ad1818;
+  border-radius: 5px;
+}
+
+/* Блок ПРОЕКТЫ */
+
+.projects {
+  margin-bottom: 150px;
+  width: 1150px;
+  height: 2122px;
+}
+
+.projects__title {
+  margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.03em;
   text-transform: uppercase;
 
+  color: #121212;
 }
 
-.about-us__text {
+.projects__item {
+  margin-bottom: 90px;
+}
 
-  font-weight: 400;
-  font-size: 45px;
-  line-height: 61px;
+.projects__image {
+  margin-bottom: 15px;
+  width: 1150px;
+  height: 450px;
+}
+
+.projects__title-adress {
+  margin-bottom: 15px;
+  font-size: 30px;
+  line-height: 41px;
   letter-spacing: -0.03em;
 
+  color: #121212;
 }
 
-.about-us__link {
-  display: block;
-  width: 255px;
-  height: 67px;
-  text-align: center;
-  line-height: 67px;
+.projects__link {
+  margin-bottom: 90px;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
   text-decoration: none;
-  color: white;
 
-  margin-top: 30px;
-  background: #AD1818;
+  color: #ad1818;
+}
+
+.projects__btn {
+  padding: 56px 0 56px 0;
+  width: 100%;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  background: #ffffff;
+  color: #ad1818;
   border-radius: 5px;
+  border: 1px solid #ad1818;
+}
 
+.projects__btn:hover {
+  color: #ffffff;
+  background: #ad1818;
+}
+
+/* Блок УСЛУГИ */
+
+.services__container {
+  padding: 151px 0 150px 0;
+  background: #121212;
+}
+
+.services__wrapper {
+  padding: 0 125px;
+}
+
+.services__title {
+  margin-bottom: 34px;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.services__image {
+  margin-bottom: 15px;
+  width: 1150px;
+  height: 270px;
+}
+.services__price {
+  margin-bottom: 60px;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+
+.services__price:nth-last-child(1) {
+  margin-bottom: 0px;
 }
