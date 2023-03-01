@@ -91,13 +91,13 @@ body {
 
 /* Блок ПРОЕКТЫ */
 
-.projects {
+.project {
   margin-bottom: 150px;
   width: 1150px;
   height: 2122px;
 }
 
-.projects__title {
+.project__title {
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
@@ -107,17 +107,17 @@ body {
   color: #121212;
 }
 
-.projects__item {
+.project__item {
   margin-bottom: 90px;
 }
 
-.projects__image {
+.project__image {
   margin-bottom: 15px;
   width: 1150px;
   height: 450px;
 }
 
-.projects__title-adress {
+.project__title-adress {
   margin-bottom: 15px;
   font-size: 30px;
   line-height: 41px;
@@ -126,7 +126,7 @@ body {
   color: #121212;
 }
 
-.projects__link {
+.project__link {
   margin-bottom: 90px;
   font-size: 20px;
   line-height: 27px;
@@ -136,7 +136,7 @@ body {
   color: #ad1818;
 }
 
-.projects__btn {
+.project__btn {
   padding: 56px 0 56px 0;
   width: 100%;
   font-size: 30px;
@@ -148,23 +148,23 @@ body {
   border: 1px solid #ad1818;
 }
 
-.projects__btn:hover {
+.project__btn:hover {
   color: #ffffff;
   background: #ad1818;
 }
 
 /* Блок УСЛУГИ */
 
-.services__container {
+.service__container {
   padding: 151px 0 150px 0;
   background: #121212;
 }
 
-.services__wrapper {
+.service__wrapper {
   padding: 0 125px;
 }
 
-.services__title {
+.service__title {
   margin-bottom: 34px;
   font-size: 18px;
   line-height: 25px;
@@ -174,12 +174,12 @@ body {
   color: #ffffff;
 }
 
-.services__image {
+.service__image {
   margin-bottom: 15px;
   width: 1150px;
   height: 270px;
 }
-.services__price {
+.service__price {
   margin-bottom: 60px;
   font-size: 30px;
   line-height: 41px;
@@ -188,6 +188,6 @@ body {
   color: #ffffff;
 }
 
-.services__price:nth-last-child(1) {
+.service__price:nth-last-child(1) {
   margin-bottom: 0px;
 }
