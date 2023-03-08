@@ -4,12 +4,22 @@ body {
   font-weight: 400;
 }
 
+h1,
+h2,
+h3,
+a,
+p,
+button {
+  letter-spacing: -0.03em;
+}
+
 .container {
   margin: 0 auto;
   width: 1400px;
 
   background: #ffffff;
 }
+
 .container__wrapper {
   padding: 0 125px;
 }
@@ -27,7 +37,6 @@ body {
   width: 956px;
   font-size: 60px;
   line-height: 60px;
-  letter-spacing: -0.03em;
 
   color: #121212;
 }
@@ -46,7 +55,6 @@ body {
   width: 430px;
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: -0.03em;
 
   color: #ffffff;
 }
@@ -63,15 +71,15 @@ body {
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: -0.03em;
   text-transform: uppercase;
 }
 
 .about-us__discription {
   margin-bottom: 30px;
+  width: 1048px;
+  height: 366px;
   font-size: 45px;
   line-height: 61px;
-  letter-spacing: -0.03em;
 }
 
 .about-us__link {
@@ -101,7 +109,6 @@ body {
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: -0.03em;
   text-transform: uppercase;
 
   color: #121212;
@@ -121,7 +128,6 @@ body {
   margin-bottom: 15px;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
 
   color: #121212;
 }
@@ -130,7 +136,6 @@ body {
   margin-bottom: 90px;
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: -0.03em;
   text-decoration: none;
 
   color: #ad1818;
@@ -141,7 +146,6 @@ body {
   width: 100%;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
   background: #ffffff;
   color: #ad1818;
   border-radius: 5px;
@@ -149,6 +153,7 @@ body {
 }
 
 .project__btn:hover {
+  cursor: pointer;
   color: #ffffff;
   background: #ad1818;
 }
@@ -168,10 +173,13 @@ body {
   margin-bottom: 34px;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: -0.03em;
   text-transform: uppercase;
 
   color: #ffffff;
+}
+
+.service__list:not(:last-child) {
+  margin: 0 0 60px 0;
 }
 
 .service__image {
@@ -179,15 +187,10 @@ body {
   width: 1150px;
   height: 270px;
 }
+
 .service__price {
-  margin-bottom: 60px;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
 
   color: #ffffff;
-}
-
-.service__price:nth-last-child(1) {
-  margin-bottom: 0px;
 }
