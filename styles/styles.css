@@ -234,7 +234,7 @@ button {
 .bedroom-img {
   margin-bottom: 186px;
   height: 717px;
-  background-image: url("/resources/bedroom.jpg");
+  background-image: url("../resources/bedroom.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -278,7 +278,7 @@ button {
   top: -35px;
   width: 24px;
   height: 24px;
-  background-image: url("/resources/phone-icon@.svg");
+  background-image: url("../resources/phone-icon@.svg");
   background-repeat: no-repeat;
 }
 
