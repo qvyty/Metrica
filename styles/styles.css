@@ -445,7 +445,7 @@ span {
   }
 
   .header__description {
-    width: 100%;
+    max-width: 312px;
     height: 88px;
     left: 15px;
     bottom: 15px;
