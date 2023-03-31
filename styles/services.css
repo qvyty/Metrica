@@ -1,0 +1,34 @@
+.service__title {
+  margin-bottom: 34px;
+  padding-top: 150px;
+  padding-left: 2px;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.service__list:not(:last-child) {
+  margin: 0 0 60px 0;
+}
+
+.service__image {
+  margin-bottom: 13px;
+  width: 1150px;
+  height: 270px;
+}
+
+.service__price {
+  font-size: 30px;
+  line-height: 41px;
+
+  color: #ffffff;
+}
+
+.service__price:nth-last-child(-n + 1) {
+  padding-left: 4px;
+}
+.service__container:last-child {
+  padding-bottom: 150px;
+}

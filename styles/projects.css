@@ -1,0 +1,53 @@
+.projects__container{
+  margin-bottom: 150px;
+
+}
+
+.project__title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #121212;
+}
+
+.project__item{
+  margin-bottom: 91px;
+}
+
+
+.project__image {
+  margin-bottom: 13px;
+  display: block;
+  height: 450px;
+}
+.project__title-adress {
+  margin-bottom: 14px;
+  font-size: 30px;
+  line-height: 41px;
+  color: #121212;
+}
+.project__link {
+  font-size: 20px;
+  line-height: 27px;
+  text-decoration: none;
+  color: #ad1818;
+}
+
+.project__btn {
+  padding: 55px 0 55px 0;
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  font-size: 30px;
+  line-height: 41px;
+  background: #ffffff;
+  color: #ad1818;
+  border-radius: 5px;
+  border: 1px solid #ad1818;
+}
+
+.project__btn:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background: #ad1818;
+}

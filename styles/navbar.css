@@ -1,0 +1,32 @@
+.navbar {
+  display: inline-block;
+
+  margin-bottom: 72px;
+  padding-top: 32.82px;
+  width: 1151.35px;
+}
+
+.navbar__container {
+  display: inline;
+}
+
+.navbar-menu {
+  float: right;
+}
+
+.navbar__link {
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #121212;
+}
+
+.navbar__link:not(:last-child) {
+  margin-right: 60px;
+}
+
+.navbar__link:hover {
+  opacity: 0.5;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #000000;
+}
