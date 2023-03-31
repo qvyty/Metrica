@@ -1,6 +1,5 @@
-.projects__container{
+.projects__container {
   margin-bottom: 150px;
-
 }
 
 .project__title {
@@ -11,13 +10,13 @@
   color: #121212;
 }
 
-.project__item{
-  margin-bottom: 91px;
+.project__item {
+  margin-bottom: 94px;
 }
-
 
 .project__image {
   margin-bottom: 13px;
+  width: 100%;
   display: block;
   height: 450px;
 }

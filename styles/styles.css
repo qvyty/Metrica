@@ -39,15 +39,6 @@ button {
   width: 1150px;
 }
 
-
-/* Блок Метрика */
-
-
-
-/* Блок О НАС */
-
-/* Блок СПАЛЬНЯ */
-
 .bedroom-img {
   margin-bottom: 186px;
   width: 100%;
@@ -78,30 +69,6 @@ button {
   text-align: left;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* АДАПТИВ */
 
 @media (max-width: 1199px) {
@@ -122,7 +89,10 @@ button {
   }
 
   .header__image {
+    width: 100%;
     height: 400px;
+    background-size: cover;
+    background-position: center;
   }
 
   .header__description {
@@ -156,7 +126,7 @@ button {
   }
 
   .project__item:last-child {
-    margin-bottom: 202px;
+    margin-bottom: 102px;
   }
 
   .project__image {
@@ -164,27 +134,11 @@ button {
   }
 
   .project__title-adress {
+    margin-bottom: 12px;
     font-size: 25px;
     line-height: 34px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 767px) {
   .header__container {
@@ -202,7 +156,7 @@ button {
   }
 
   .header__image {
-    background-position: 34%;
+    height: 350px;
   }
 
   .header__description {
@@ -245,12 +199,22 @@ button {
     padding-right: 12px;
   }
 
+  .project__item {
+    display: block;
+    margin-bottom: 49px;
+  }
+
+  .project__item:last-child {
+    margin-bottom: 60px;
+  }
+
   .project__image {
     object-fit: cover;
     height: 250px;
   }
 
   .project__title-adress {
+    margin-bottom: 11px;
     font-size: 18px;
     line-height: 25px;
   }
@@ -263,5 +227,19 @@ button {
   .project__btn {
     font-size: 22px;
     line-height: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header__image {
+    background-image: url("../resources/main_mobile.png");
+  }
+
+  .project__btn {
+    padding-left: 13px;
+    padding-right: 12px;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    line-height: 24px;
   }
 }
