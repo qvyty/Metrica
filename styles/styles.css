@@ -25,6 +25,9 @@ button {
   letter-spacing: -0.03em;
 }
 
+button {
+  font-family: "Manrope";
+}
 .section-white {
   width: 100%;
   background-color: #ffffff;
@@ -231,6 +234,10 @@ button {
 }
 
 @media (max-width: 400px) {
+  .header__title {
+    width: 100%;
+  }
+
   .header__image {
     background-image: url("../resources/main_mobile.png");
   }
