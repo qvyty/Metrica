@@ -126,6 +126,8 @@
 }
 
 @media (max-width: 400px) {
+
+  .projects{margin-bottom: 144px;}
   .project__btn {
     padding-left: 13px;
     padding-right: 12px;

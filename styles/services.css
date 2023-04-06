@@ -13,7 +13,7 @@
   display: flex;
   flex-wrap: wrap;
   column-gap: 10px;
-  row-gap: 48px;
+  row-gap: 47px;
 }
 
 .service__list {
@@ -22,8 +22,8 @@
 }
 
 .service__image {
-  margin-bottom: 17px;
-  max-width: 100%;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
 .sevice__price {
@@ -41,7 +41,7 @@
 }
 
 .service__subtitle {
-  padding-left: 4px;
+  padding-left: 1px;
   font-size: 30px;
   line-height: 41px;
 
@@ -68,22 +68,79 @@
 }
 
 @media (max-width: 1199px) {
-  .service__container{
+ 
+  .services {
+    padding: 0 15px 120px 15px;
+  }
+  
+  .service__container {
     column-gap: 10px;
-    row-gap: 80px;
+    row-gap: 90px;
   }
 
-  .service__wrapper {
-    padding: 0 15px 0 15px;
+  .service__title {
+    padding-top: 151px;
   }
 
-  .sevice__price{
-  font-weight: 20px;
-  line-height: 27px;
-}
+  .sevice__price {
+    padding: 7px 26px 6px 27px;
+    font-size: 20px;
+    line-height: 27px;
+    top: 31px;
+    left: 32px;
+  }
+
+  .service__subtitle {
+    font-size: 25px;
+    line-height: 27px;
+  }
+
+  .service__button {
+    margin-top: 86px;
+  }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
+  .services {
+    padding: 0 12px 80px 13px;
+  }
+  .service__container {
+    column-gap: 5px;
+    row-gap: 65px;
+  }
+
+  .service__title {
+    margin-bottom: 20px;
+    padding-top: 80px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .sevice__price {
+    padding: 5px 23px 6px 24px;
+    font-size: 14px;
+    line-height: 19px;
+    top: 24px;
+    left: 23px;
+  }
+
+  .service__image {
+    margin-bottom: 10px;
+  }
+   .service__subtitle {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .service__button {
+    margin-top: 66px;
+    padding: 40px 0 40px 0;
+    font-size: 22px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 600px) {
   .service__list {
     flex-direction: column;
     width: 100%;
