@@ -1,8 +1,8 @@
-.header__container {
+.intro__container {
   margin-bottom: 150px;
 }
 
-.header__title {
+.intro__title {
   margin-bottom: 30px;
   width: 956px;
   font-size: 60px;
@@ -11,18 +11,17 @@
   color: #121212;
 }
 
-.header__image {
-  display: block;
+.intro_image {
   position: relative;
-  width: 100%;
+  width: 1150px;
   height: 500px;
-  background-image: url("../resources/main.png");
+  background-image: url("../resources/intro.png");
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
 }
 
-.header__description {
+.intro__description {
   position: absolute;
   left: 40px;
   bottom: 40px;
@@ -31,4 +30,10 @@
   line-height: 27px;
 
   color: #ffffff;
+}
+
+@media (max-width: 959px) {
+}
+
+@media (max-width: 374px) {
 }
