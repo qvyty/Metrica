@@ -50,3 +50,13 @@
   color: #ffffff;
   background: #ad1818;
 }
+
+
+
+
+
+
+@media (max-width: 1199px) {
+  .projects {
+  margin-bottom: 101px;}
+}
