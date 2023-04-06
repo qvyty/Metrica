@@ -1,0 +1,38 @@
+.footer {
+  padding-top: 60px;
+  height: 229px;
+}
+
+.footer__menu {
+  margin: 0 auto;
+  width: 460px;
+  margin-bottom: 87px;
+}
+
+.footer__item {
+  margin-right: 53px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footer__item:last-child {
+  margin-right: 0px;
+}
+
+.footer__item:hover {
+  opacity: 0.5;
+}
+
+.footer__cr {
+  padding-left: 5px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #ffffff;
+  opacity: 0.5;
+}

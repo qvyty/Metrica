@@ -70,60 +70,115 @@
     
     <!--------------------------------------------------- ПРОЕКТЫ --------------------------------------------->
         <div class="container">
-          <section>
-            <ul  class="projects" id="projects">
-              <section><h2 class="project__title">проекты</h2></section>
-              <li class="project__item">
-             <img class="project__image" src="./resources/apart_112m.jpg" alt="Открытое пространство, красный диван, подушки лежат на диване, гитара на стройке, окна во всю стену, 2 картины на стене" ></img>
-               <p class="project__title-adress">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
-                <a class="project__link" href="#">Подробнее →</a>
-              </li>
-            
-              <li class="project__item">
-               <img class="project__image" src="./resources/apart_75m.jpg" alt="Деревянный журнальный столик на ковре, телевизор на стене, диван с подушками, растение, широкие окна"></img>
-               <p class="project__title-adress">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
-                <a class="project__link" href="#">Подробнее →</a>
-              </li>
-      
-              <li class="project__item">
-                <img class="project__image" src="./resources/apart_94m.jpg" alt="Черный стол с растением, стулья вокруг стола, лестница на второй этаж, коридор на кухню, стена из стекла, вид на гостинную с диванами, интерьер в современном стиле"></img>
-               <h3 class="project__title-adress">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
-               <a class="project__link" href="#">Подробнее →</a>
-              </li>
+
+            <div  class="projects" id="projects">
+              <h2 class="project__title">проекты</h2>
+              
+              <div class="project__list">
+                <ul class="project__item">
+                  <li>
+                    <picture>
+                      <source
+                        media="(max-width: 500px)"
+                        srcset="resources/apart_112m_mobile.jpg"
+                      >
+                      <source 
+                        media="(max-width: 1999px)" srcset="resources/apart_112m_tab.jpg"
+                      >
+                      <img class="project__image" src="./resources/apart_112m.jpg" alt="Открытое пространство, красный диван, подушки лежат на диване, гитара на стройке, окна во всю стену, 2 картины на стене" >
+                      </img>
+                    </picture>
+                  </li>            
+                  <li>
+                    <p class="project__title-adress">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
+                  </li>
+                  <li>
+                    <a class="project__link" href="#">Подробнее →</a>
+                  </li>
+                </ul>
+              
+                <ul class="project__item">
+                  <li>
+                    <picture>
+                      <source
+                        media="(max-width: 500px)"
+                        srcset="resources/apart_75m_mobile.jpg"
+                      >
+                      <source 
+                        media="(max-width: 1999px)" srcset="resources/apart_75m_tab.jpg"
+                      >
+                      <img class="project__image" src="./resources/apart_75m.jpg" alt="Деревянный журнальный столик на ковре, телевизор на стене, диван с подушками, растение, широкие окна">
+                      </img>
+                    </picture>
+                  </li>
+                  <li>
+                    <p class="project__title-adress">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
+                  </li>
+                  <li>
+                    <a class="project__link" href="#">Подробнее →</a>
+                  </li>
+                </ul>
+        
+                <ul class="project__item">
+                 <li>
+                    <picture>
+                      <source
+                        media="(max-width: 500px)"
+                        srcset="resources/apart_94m_mobile.jpg"
+                      >
+                      <source 
+                        media="(max-width: 1999px)" srcset="resources/apart_94m_tab.jpg"
+                      >
+                      <img class="project__image" src="./resources/apart_94m.jpg" alt="Черный стол с растением, стулья вокруг стола, лестница на второй этаж, коридор на кухню, стена из стекла, вид на гостинную с диванами, интерьер в современном стиле">
+                    </img>
+                    </picture>
+                 </li>
+                 <li>
+                    <h3 class="project__title-adress">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+                 </li>
+                 <li>
+                    <a class="project__link" href="#">Подробнее →</a>
+                  </li>
+                </ul>
+            </div>
               <button class="project__btn">Смотреть все проекты</button>
-            </ul>
-          </section>
+            </div>
         </div>
     </div>
   <!--------------------------------------------------- УСЛУГИ --------------------------------------------->
   
-<!-- <div class="section-black">
+ <div class="section-black">
   <div class="container">
-    <section>
-        <ul  class="service__container" id="services">
-          
-            <section><h2 class="service__title">Услуги</h2></section>
-            <li class="service__list">
-              <img class="service__image" src="./resources/services_price_2500_2@.jpg" alt="Часть заточенного карандаша лежит на чертежах"></img>
-              <h3 class="service__price">Планировочное решение — от 2500₽/м²</h3>
-            </li>
-    
-            <li class="service__list">
-              <img class="service__image" src="./resources/services_price_3000_2@.jpg" alt="Пробники цветов для интерьера, маркерованные"></img>
-              <h3 class="service__price">Дизайн-проект — от 3000₽/м²</h3>
-            </li>
-            <li class="service__list">
-              <img class="service__image" src="./resources/services_price_30000_2@.jpg" alt="Чертеж, рука с карандашом на чертеже, линейка лежит на чертеже"></img>
-              <h3 class="service__price">Авторский надзор — от 30 000₽ в месяц</h3>
-            </li>
-    
-            <li class="service__list">
-              <img class="service__image" src="./resources/services_price_5_2@.jpg" alt="Склад, стойки с палетами, упакованные в коробки материалы, обернутые пленкой, горящие лампы на потолке"></img>
-              <h3 class="service__price">Комплектация — 5% от стоимости спецификации</h3>
-            </li>
-          
-        </ul>
-      </section>
+    <div class="service__wrapper">
+      <h2 class="service__title">Услуги</h2>
+          <div  class="service__container" id="services">
+  
+            <div class="service__list">
+              <img class="service__image" src="./resources/services_plan.jpg" alt="Часть заточенного карандаша лежит на чертежах"></img>               <p class="sevice__price">от 2500₽/м²</p>
+              <h3 class="service__subtitle">Планировочное <br> решение </h3>
+            </div>
+  
+            <div class="service__list">
+              <img class="service__image" src="./resources/services_disign.jpg" alt="Пробники цветов для интерьера, маркерованные"></img>
+             <p class="sevice__price">от 3000₽/м²</p>
+             <h3 class="service__subtitle">Дизайн-проект</h3>
+            </div>
+           
+            <div class="service__list">
+              <img class="service__image" src="./resources/services_supervision.jpg" alt="Чертеж, рука с карандашом на чертеже, линейка лежит на чертеже"></img>
+              <p class="sevice__price">от 30 000₽/мес</p>
+              <h3 class="service__subtitle">Авторский надзор</h3>
+            </div>
+  
+            <div class="service__list">
+               <img class="service__image" src="./resources/services_equipment.jpg" alt="Склад, стойки с палетами, упакованные в коробки материалы, обернутые пленкой, горящие лампы на потолке"></img>
+               <p class="sevice__price">5% от стоимости</p> 
+               <h3 class="service__subtitle">Комплектация</h3>
+            </div>
+  
+          </div>
+          <button class="service__button">Заказать услугу</button> 
+    </div> 
   </div>
 </div>
   <!--------------------------------------------------- СПАЛЬНЯ --------------------------------------------->

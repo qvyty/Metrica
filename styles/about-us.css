@@ -1,0 +1,31 @@
+.about-us__title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.about-us__discription {
+  margin-bottom: 30px;
+  width: 1048px;
+  height: 366px;
+  font-size: 45px;
+  line-height: 61px;
+}
+
+.about-us__link {
+  margin-bottom: 150px;
+  display: block;
+
+  width: 255px;
+  height: 67px;
+  font-size: 20px;
+  line-height: 67px;
+  text-decoration: none;
+  text-align: center;
+
+  color: #ffffff;
+
+  background: #ad1818;
+  border-radius: 5px;
+}
