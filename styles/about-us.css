@@ -6,6 +6,7 @@
 }
 
 .about-us__discription {
+  display: block;
   margin-bottom: 30px;
   width: 1048px;
   height: 366px;
@@ -13,19 +14,61 @@
   line-height: 61px;
 }
 
-.about-us__link {
+.about-us__btn {
   margin-bottom: 150px;
   display: block;
-
-  width: 255px;
-  height: 67px;
+  padding: 20px 40px;
   font-size: 20px;
-  line-height: 67px;
+  line-height: 27px;
   text-decoration: none;
   text-align: center;
 
   color: #ffffff;
 
   background: #ad1818;
+  border: none;
   border-radius: 5px;
+}
+
+@media (max-width: 1199px) {
+  .about-us {
+    padding-left: 17px;
+  }
+
+  .about-us__discription {
+    margin-bottom: 1px;
+    width: 690px;
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  .about-us__btn {
+    margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-us {
+    padding-left: 12px;
+    padding-right: 17px;
+  }
+
+  .about-us__title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .about-us__discription {
+    margin-bottom: -37px;
+    width: 100%;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .about-us__btn {
+    margin-bottom: 80px;
+    padding: 11px 27px;
+    font-size: 16px;
+  }
 }
