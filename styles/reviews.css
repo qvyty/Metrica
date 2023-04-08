@@ -1,0 +1,40 @@
+.reviews {
+  padding: 150px 0 157px 0;
+}
+
+.review__title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
+
+  text-transform: uppercase;
+
+  color: #121212;
+}
+
+.review__wrapper {
+  max-width: 1150px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 80px;  
+}
+
+.review__card {
+  width: calc(50% - 25px);
+}
+
+.review__subtitle {
+  margin-bottom: 14px;
+  font-size: 45px;
+  line-height: 61px;
+
+  color: #000000;
+}
+
+.review__text {
+  font-size: 22px;
+  line-height: 30px;
+
+  color: #000000;
+}

@@ -3,8 +3,10 @@
 @import "../styles/about-us.css";
 @import "../styles/projects.css";
 @import "../styles/services.css";
+@import "../styles/reviews.css";
 @import "../styles/contacts.css";
 @import "../styles/footer.css";
+
 
 html {
   scroll-behavior: smooth;
@@ -78,6 +80,4 @@ button {
   .container {
     width: 100%;
   }
-  
 }
-

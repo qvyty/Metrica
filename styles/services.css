@@ -1,3 +1,7 @@
+.services {
+  padding-bottom: 150px;
+}
+
 .service__title {
   margin-bottom: 30px;
   padding-top: 150px;
@@ -68,11 +72,10 @@
 }
 
 @media (max-width: 1199px) {
- 
   .services {
     padding: 0 15px 120px 15px;
   }
-  
+
   .service__container {
     column-gap: 10px;
     row-gap: 90px;
@@ -127,7 +130,7 @@
   .service__image {
     margin-bottom: 10px;
   }
-   .service__subtitle {
+  .service__subtitle {
     font-size: 18px;
     line-height: 25px;
   }
