@@ -17,7 +17,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 80px;  
+  row-gap: 80px;
 }
 
 .review__card {
@@ -37,4 +37,8 @@
   line-height: 30px;
 
   color: #000000;
+}
+
+.card-big {
+  width: 75%;
 }
