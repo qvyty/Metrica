@@ -17,7 +17,7 @@
   display: flex;
   flex-wrap: wrap;
   column-gap: 10px;
-  row-gap: 47px;
+  row-gap: 45px;
 }
 
 .service__list {
@@ -45,22 +45,26 @@
 }
 
 .service__subtitle {
-  padding-left: 1px;
+  padding-left: 3px;
   font-size: 30px;
   line-height: 41px;
 
   color: #ffffff;
 }
 
+.service_subtitle-transfer {
+  max-width: 344px;
+}
+
 .service__button {
-  margin-top: 105px;
+  margin-top: 100px;
   padding: 56px 0 56px 0;
   display: block;
   width: 100%;
 
   font-size: 30px;
   line-height: 40px;
-
+  cursor: pointer;
   text-decoration: none;
   text-align: center;
   border: none;
