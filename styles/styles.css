@@ -39,7 +39,6 @@ button {
   width: 100%;
 }
 
-
 .bedroom-img {
   margin-bottom: 186px;
   width: 100%;
@@ -70,26 +69,21 @@ button {
   text-align: left;
 }
 
-
 .container {
   max-width: 1150px;
   margin: 0 auto;
-/* АДАПТИВ */
-
-
+  /* АДАПТИВ */
 }
 @media only screen and (max-width: 1199px) {
   .container {
-      width: 100%;
-      padding-left: 16px;
-      padding-right: 16px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
   }
-  
 }
 @media only screen and (max-width: 767px) {
   .container {
-      padding-left: 13px;
-      padding-right: 12px;
+    padding-left: 13px;
+    padding-right: 12px;
   }
 }
-

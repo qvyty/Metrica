@@ -1,49 +1,101 @@
 .contacts {
-  position: relative;
-  height: 367px;
+  padding-top: 140px;
+  padding-bottom: 150px;
 }
-
-.contact__title {
-  margin-bottom: 32px;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: uppercase;
-
+.contacts__tag {
+  margin-top: 10px;
+  margin-bottom: 74px;
+}
+.contacts__list {
+  display: flex;
+  gap: 97px;
+}
+.contacts__number {
+  margin-bottom: 30px;
   color: #121212;
+  position: relative;
 }
-.contact__title::before {
+.contacts__email::before,
+.contacts__number::before {
   content: "";
-  position: absolute;
   display: block;
-  top: -35px;
+  position: absolute;
   width: 24px;
   height: 24px;
-  background-image: url("../resources/phone-icon@.svg");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
-
-.contact__number {
-  margin-bottom: 30px;
+.contacts__number:before {
+  background-image: url(../resources/icon_phone.svg);
+  top: -39px;
+  left: -5px;
 }
-
-.contact__number a {
-  text-decoration: none;
+.contacts__email {
+  color: rgba(18, 18, 18, 0.5);
+  border-bottom: 2px solid;
+}
+.contacts__email:before {
+  background-image: url(../resources/icon_mail.svg);
+  margin-top: -50px;
+  color: rgba(18, 18, 18, 1);
+}
+.contacts__number,
+.contacts__email {
   font-size: 60px;
   line-height: 60px;
-
-  color: #121212;
-}
-span {
-  padding-left: 9px;
 }
 
-.contact__mail a {
-  display: inline-block;
-  padding-bottom: 8px;
-  text-decoration: none;
-  font-size: 60px;
-  line-height: 60px;
-  color: #121212;
-  opacity: 0.5;
-  border-bottom: 2px solid #121212;
+/* Адаптив для блока контакты */
+@media only screen and (max-width: 1199px) {
+  .contacts {
+    padding-top: 110px;
+    padding-bottom: 120px;
+  }
+  .contacts__list {
+    gap: 114px;
+  }
+  .contacts__number:before {
+    top: -49px;
+  }
+  .contacts__number,
+  .contacts__email {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .contacts {
+    padding-top: 70px;
+    padding-bottom: 79px;
+  }
+  .contacts__tag {
+    margin-bottom: 58px;
+  }
+  .contacts__list {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 58px;
+  }
+  .contacts__email {
+    color: #121212;
+    border: none;
+  }
+  .contacts__number,
+  .contacts__email {
+    font-size: 35px;
+    line-height: 46px;
+  }
+  .contacts__email::before,
+  .contacts__number::before {
+    width: 18px;
+    height: 18px;
+  }
+  .contacts__number::before {
+    top: -38px;
+    background-image: url(../resources/icon_phone_mobile.svg);
+  }
+  .contacts__email::before {
+    margin-top: -39px;
+    background-image: url(../resources/icon_mail_mobile.svg);
+  }
 }
