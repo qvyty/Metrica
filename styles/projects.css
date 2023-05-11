@@ -54,8 +54,6 @@
 @media (max-width: 1199px) {
   .projects {
     margin-bottom: 101px;
-    padding-left: 15px;
-    padding-right: 17px;
   }
 
   .project__item {
@@ -83,8 +81,6 @@
   .projects {
     width: 100%;
     margin-bottom: 140px;
-    padding-left: 12px;
-    padding-right: 12px;
   }
 
   .project__title {

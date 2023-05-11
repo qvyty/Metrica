@@ -30,9 +30,7 @@
 }
 
 @media (max-width: 1199px) {
-  .about-us {
-    padding-left: 17px;
-  }
+  
 
   .about-us__discription {
     margin-bottom: 1px;
@@ -47,10 +45,6 @@
 }
 
 @media (max-width: 767px) {
-  .about-us {
-    padding-left: 12px;
-    padding-right: 17px;
-  }
 
   .about-us__title {
     margin-bottom: 20px;

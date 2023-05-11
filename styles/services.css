@@ -77,7 +77,7 @@
 
 @media (max-width: 1199px) {
   .services {
-    padding: 0 15px 120px 15px;
+    padding: 0 0 120px 0;
   }
 
   .service__container {
@@ -109,7 +109,7 @@
 
 @media (max-width: 767px) {
   .services {
-    padding: 0 12px 80px 13px;
+    padding: 0 0 80px 0;
   }
   .service__container {
     column-gap: 5px;

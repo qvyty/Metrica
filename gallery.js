@@ -5,7 +5,7 @@ console.log(slidesNodes);
 const prevButtonNode = document.querySelector('.gallery__control-prev');
 const nextButtonNode = document.querySelector('.gallery__control-next');
 let activeId;
-console(log)
+
 
 init();
 
