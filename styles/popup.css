@@ -7,7 +7,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
 
   background-color: rgba(0, 0, 0, 0.7);
   opacity: 0;
@@ -33,10 +32,10 @@
 
 .popup__close-btn {
   position: absolute;
-  top: 37px;
-  right: 44px;
-  width: 50px;
-  height: 50px;
+  top: 42px;
+  right: 46px;
+  width: 30px;
+  height: 30px;
   cursor: pointer;
   background: url(../resources/close-btn.svg) no-repeat;
   background-position: center;
@@ -57,9 +56,6 @@
   background: #ad1818;
   border: none;
   border-radius: 5px;
-}
-
-@media (max-width: 1190px) {
 }
 
 @media (max-width: 767px) {
