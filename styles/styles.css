@@ -3,6 +3,9 @@
 @import "../styles/about-us.css";
 @import "../styles/projects.css";
 @import "../styles/services.css";
+@import "../styles/popup.css";
+@import "../styles/order.css";
+@import "../styles/input.css";
 @import "../styles/reviews.css";
 @import "../styles/gallery.css";
 @import "../styles/contacts.css";
@@ -16,7 +19,9 @@ body {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
 }
-
+.body_fixed {
+  overflow: hidden;
+}
 h1,
 h2,
 h3,
@@ -24,12 +29,14 @@ a,
 p,
 span,
 button {
+  font-family: "Manrope";
   letter-spacing: -0.03em;
 }
 
 button {
-  font-family: "Manrope";
+  cursor: pointer;
 }
+
 .section-white {
   width: 100%;
   background-color: #ffffff;

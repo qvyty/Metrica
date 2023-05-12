@@ -34,11 +34,15 @@
 }
 
 .project__btn {
+  
   padding: 55px 0 55px 0;
   font-family: "Manrope", sans-serif;
   width: 100%;
   font-size: 30px;
   line-height: 41px;
+  display: flex;
+  justify-content: center;
+
   background: #ffffff;
   color: #ad1818;
   border-radius: 5px;

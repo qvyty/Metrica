@@ -140,7 +140,7 @@
                 </li>
               </ul>
           </div>
-            <button class="project__btn">Смотреть все проекты</button>
+            <a class="project__btn">Смотреть все проекты</a>
           </div>
       </div>
   </div>
@@ -178,7 +178,29 @@
                </li>
      
              </ul>
-             <button class="service__button">Заказать услугу</button> 
+             <button class="js-btn service__button">Заказать услугу</button>
+             <div class="js-popup popup">
+              <div class="js-popup__content popup__content">
+                <h2 class="order__title">Заказать услугу</h2>
+                <h3 class="order__subtitle">Заполните форму, мы свяжемся с вами в течение суток
+                </h3>
+                <input class="input order__input"
+                placeholder="Имя"
+                  type="text">
+
+                <input class="input order__input"
+                placeholder="Электронная почта"
+                  type="email">
+
+                <input class="input order__input"
+                placeholder="Номер телефона"
+                type="tel">
+        
+                <div class="js-popup__close-btn popup__close-btn">
+                </div>
+                <button class="popup__send-button">Отправить</button>
+              </div>
+            </div>
        </div> 
      </div>
    </div>
@@ -296,10 +318,10 @@
   <!--------------------------------------------------- ФУТЕР --------------------------------------------->
   <footer class="footer section-black">
              <nav class="footer__nav">
-                <a href="#about" class="footer_nav-link">о нас</a>
-                <a href="#project" class="footer_nav-link">проекты</a>
-                <a href="#service" class="footer_nav-link">услуги</a>
-                <a href="#contact" class="footer_nav-link">контакты</a>
+                <a href="#about-us" class="footer_nav-link">о нас</a>
+                <a href="#projects" class="footer_nav-link">проекты</a>
+                <a href="#services" class="footer_nav-link">услуги</a>
+                <a href="#contacts" class="footer_nav-link">контакты</a>
              </nav>
           <p class="footer_title">
              студия дизайна интерьера Метрика — 2023
@@ -307,6 +329,7 @@
  </footer>
 
     <script src="gallery.js"></script>
+    <script src="popup.js"></script>
 </body>
 
 </html>
