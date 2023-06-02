@@ -52,6 +52,8 @@ table {
 
 a{
 	text-decoration: none;
+	font-family: "Manrope";
+	letter-spacing: -0.03em;
 	}
 	a:hover{
 	text-decoration: none;
