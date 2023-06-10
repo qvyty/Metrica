@@ -20,8 +20,6 @@
 }
 
 .nav__link {
-  display: block;
-
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
@@ -31,8 +29,8 @@
 
 .nav__link:hover {
   opacity: 0.5;
- padding-bottom: 2px;
- border-bottom: 1px solid #000000;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #000000;
 }
 
 .burger {
@@ -91,7 +89,6 @@
 }
 
 .burger-nav__link {
-  
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
@@ -137,6 +134,7 @@
     display: block;
     position: relative;
     width: 50px;
+    height: 10px;
     background: none;
     border: none;
   }
@@ -175,13 +173,25 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+  .header {
+    margin-bottom: 61px;
+    padding-top: 31px;
+  }
 
   .burger__content {
     padding: 80px 16px 80px 16px;
   }
 
-  .burger-btn::after {
+  /* .burger-btn::after {
     top: 6px;
     width: 31px;
+  } */
+
+  .burger-btn::before {
+    width: 38px;
+  }
+  .burger-btn::after {
+    width: 24px;
+    
   }
 }

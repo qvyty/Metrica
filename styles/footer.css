@@ -49,3 +49,9 @@ footer {
     line-height: 18px;
   }
 }
+
+@media (max-width: 500px) {
+  .footer_title {
+    margin-top: 41px;
+  }
+}
