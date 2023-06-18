@@ -46,7 +46,7 @@
     </div>
   </header>
   <div class="js-burger burger ">
-    <div class=" js-burger__content burger__content">
+    <div class="  burger__content">
       <div class="burger__logo">
         <img src="./resources/metrica-logo_burger.png" alt="">
       </div>
@@ -55,8 +55,8 @@
         <li><a href="#projects" class="burger-nav__link">проекты</a></li>
         <li><a href="#services" class="burger-nav__link">услуги</a></li>
         <li><a href="#contacts" class="burger-nav__link">контакты</a></li>
-        <ul class="burger__contacts">
-          <li><h2 class="burger__contact-title">для связи:</h2></li>
+        <ul class="js-burger__content burger__contacts">
+          <li><h2 class=" burger__contact-title">для связи:</h2></li>
           <li><a class="burger__contact-number" href="tel:+79358954535">+7 935 895-45-35</a></li>
           <li><a class="burger__contact-email" target="_blank" href="https://t.me/ChilNet">@ChilNet</a></li>
         </ul>
@@ -88,11 +88,10 @@
             интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные
             решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.
           </p>
-          <button href="#" class="about-us__btn">Посмотреть услуги</button>
+          <a href="#services" class="about-us__link">Посмотреть услуги</a>
         </div>
       </div>
   </section>
-    
     <!--------------------------------------------------- ПРОЕКТЫ --------------------------------------------->
     <section>
       <div class="container">
@@ -211,17 +210,23 @@
                 <h2 class="order__title">Заказать услугу</h2>
                 <h3 class="order__subtitle">Заполните форму, мы свяжемся с вами в течение суток
                 </h3>
-                <input class="input order__input"
-                placeholder="Имя"
-                  type="text">
+                <input class="input order__input" 
+                
+                  type="text"
+                  name="name"
+                  placeholder="Имя">
 
                 <input class="input order__input"
-                placeholder="Электронная почта"
-                  type="email">
+                
+                  type="email"
+                  name="email"
+                  placeholder="Электронная почта">
 
-                <input class="input order__input"
-                placeholder="Номер телефона"
-                type="tel">
+                <input class="input order__input" 
+                
+                type="tel"
+                name="phone"
+                placeholder="Номер телефона">
         
                 <div class="js-popup__close-btn popup__close-btn">
                 </div>
