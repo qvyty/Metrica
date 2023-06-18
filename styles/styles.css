@@ -40,6 +40,11 @@ button {
   cursor: pointer;
 }
 
+.button:hover {
+  background-color: #ffffff;
+  color: #ad1818;
+}
+
 .section-white {
   width: 100%;
   background-color: #ffffff;

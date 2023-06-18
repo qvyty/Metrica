@@ -1,3 +1,7 @@
+.about-us {
+  margin-bottom: 150px;
+}
+
 .about-us__title {
   margin-bottom: 30px;
   font-size: 18px;
@@ -14,7 +18,7 @@
 }
 
 .about-us__link {
-  margin-bottom: 150px;
+  /* margin-bottom: 150px; */
   display: inline-block;
   padding: 20px 40px;
   font-size: 20px;
@@ -24,15 +28,12 @@
   text-align: center;
 
   color: #ffffff;
-
+  border: 1px solid #ad1818;
   background: #ad1818;
-  border: none;
   border-radius: 5px;
 }
 
 @media (max-width: 1199px) {
-  
-
   .about-us__discription {
     margin-bottom: 1px;
     width: 690px;
@@ -40,13 +41,15 @@
     line-height: 48px;
   }
 
-  .about-us__link {
+  .about-us {
     margin-bottom: 120px;
   }
 }
 
 @media (max-width: 767px) {
-
+  .about-us {
+    margin-bottom: 80px;
+  }
   .about-us__title {
     margin-bottom: 20px;
     font-size: 14px;
@@ -60,7 +63,7 @@
   }
 
   .about-us__link {
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
     padding: 11px 27px;
     font-size: 16px;
   }

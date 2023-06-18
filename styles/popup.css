@@ -39,6 +39,7 @@
   cursor: pointer;
   background: url(../resources/close-btn.svg) no-repeat;
   background-position: center;
+  
 }
 
 .popup__send-button {
@@ -54,7 +55,7 @@
   color: #ffffff;
 
   background: #ad1818;
-  border: none;
+  border: 1px solid #ad1818;
   border-radius: 5px;
 }
 

@@ -18,6 +18,12 @@
   color: #121212;
   position: relative;
 }
+
+.contacts__number:hover {
+  opacity: 0.5;
+  border-bottom: 2px solid black;
+}
+
 .contacts__email::before,
 .contacts__number::before {
   content: "";
@@ -35,8 +41,12 @@
   left: -5px;
 }
 .contacts__email {
-  color: rgba(18, 18, 18, 0.5);
-  border-bottom: 2px solid;
+  color: #121212;
+}
+
+.contacts__email:hover {
+  opacity: 0.5;
+  border-bottom: 2px solid black;
 }
 .contacts__email:before {
   background-image: url(../resources/icon_mail.svg);
